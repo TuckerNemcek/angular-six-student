@@ -1,1 +1,12 @@
-<p>reactive-js works!</p>
+<ul id="obs-list"></ul>
+<hr>
+
+<div class="icon-list">
+  <p *ngFor="let icon of iconList">
+    <mat-icon matBadge="{{icon.count}}" matBadgeColor="{{icon.color}}">{{icon.symbol}}</mat-icon>
+  </p>
+</div>
+
+<hr>
+
+<button mat-button (click)="evntClick()">Click me!</button>

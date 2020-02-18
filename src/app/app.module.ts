@@ -29,6 +29,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 import {SnackBarComponent} from './snack-bar/snack-bar.component';
 import {routes} from './app.routes';
 import { ReactiveJsComponent } from './reactive-js/reactive-js.component';
+import {MatBadgeModule} from '@angular/material/badge';
 
 
 @NgModule({
@@ -64,6 +65,7 @@ import { ReactiveJsComponent } from './reactive-js/reactive-js.component';
     MatExpansionModule,
     MatFormFieldModule,
     MatInputModule,
+    MatBadgeModule,
     routes
   ],
   providers: [],

@@ -13,7 +13,7 @@ export const router: Routes = [
   {path: 'nav', component: MyNavComponent},
   {path: 'dashboard', component: MyDashboardComponent},
   {path: 'table', component: MyTableComponent},
-  {path: 'panel', component: ExpandingPanelComponent}
+  {path: 'panel', component: ExpandingPanelComponent},
   {path: 'reactive', component: ReactiveJsComponent}
 ];
 
